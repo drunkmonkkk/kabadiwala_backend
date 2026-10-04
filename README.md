@@ -21,7 +21,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-On Windows, activate with `.venv\\Scripts\\activate`. Start from the repository root because model paths are relative to that directory. The model weights must be present for startup.
+On Windows, activate with `.venv\Scripts\activate`. Start from the repository root because model paths are relative to that directory. The model weights must be present for startup.
 
 Open `http://127.0.0.1:8000/docs` for interactive API documentation.
 
